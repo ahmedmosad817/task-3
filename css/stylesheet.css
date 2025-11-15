@@ -1,0 +1,492 @@
+/* general style  */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+h1 , h2 , h3 , h4 , h5 {
+    font-family: "Alegreya", serif;
+}
+
+h3  
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.clr {
+    clear: both;
+}
+
+
+.container {
+    width: 80%;
+    margin-inline: auto ;
+}
+
+
+/* style for nav bar */
+
+
+div.home nav {
+    padding-top: 20px;
+    padding-inline: 40px;
+}
+
+
+div.home nav div.logo {
+    float: left;
+    width: 130px;
+    height: 40px;
+}
+
+div.home nav div.logo img {
+    width: 100%;
+    height: 100%; 
+}
+
+
+div.home nav div.links {
+    float: right;
+    margin-top: 15px;
+}
+
+
+div.home nav div.links ul {
+    list-style: none;
+}
+
+
+div.home nav div.links ul li  {
+    float: left;
+    padding-inline: 20px;
+}
+
+
+div.home nav div.links ul li a {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 18px;
+}
+/* style for home section */ 
+
+
+div.home {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+    color: #fff;
+}
+
+div.home div.home-content {
+    text-align: center;
+    margin-top: 300px ;
+}
+
+
+div.home div.home-content {
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+div.home div.home-content h1 {
+    padding-block: 10px;
+    font-size: 70px;
+}
+
+
+div.home div.home-content h4 {
+    font-size: 32px; 
+}
+
+div.home div.home-content p {
+    font-size: 32px; 
+}
+
+
+div.home div.home-content button {
+    padding: 30px;
+    margin-top: 20px;
+    margin-inline: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+
+div.home div.home-content button.selected {
+        background-color: #8e7754;
+        border: 2px solid transparent ;
+}
+
+div.home div.home-content button.out-line {
+        background-color: transparent;
+        border: 2px solid #fff ;
+}
+
+
+/* style for location section */
+
+div.location {
+    margin-block: 50px;
+    background-color: #f8f8f8 ;
+    padding-block: 50px;
+}
+
+.container-1 {
+    width: 80%;
+    margin-inline: auto ;
+    vertical-align: text-top;
+}
+div.location div.container-1 div.left {
+    /* float: left; */
+    display: inline-block;
+    width: 40%;
+    margin-inline: 100px;
+    margin-top: 80px ;
+}
+
+
+div.location div.container-1 div.left p {
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+div.location div.container-1 div.right {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.location div.container-1 .right img {
+    width: 100%;
+    height: 100%;
+        /* display: inline-block; */
+}
+
+
+div.banking{
+    text-align: center;
+    background-color: #fff;
+}
+
+div.banking h3 {
+    /* text-align: center; */
+    /* background-color: blue; */
+    margin-bottom: 20px;
+}
+
+
+div.banking .font{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+
+div.banking div.container div.item {
+    width: 33.3%;
+    float: left;
+    padding-inline: 15px;
+}
+
+
+
+
+div.banking div.container div.item img {
+    width: 100%;   
+}
+
+div.banking div.container div.item h4 {
+    margin-block: 20px;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+
+div.banking div.container div.item P {
+    line-height: 2;
+    padding-inline: 10px;
+    font-size: 16px;
+}
+
+
+/* who we are style  */
+
+.container-2 {
+    width: 80%;
+    margin-inline: auto ;
+    vertical-align: text-top;
+    margin-top: 100px;
+    /* padding-inline: 30px; */
+}
+
+
+div.who div.container-2 div.photo {
+    width: 40%;
+    display: inline-block;
+    margin-left: 70px;
+}
+
+
+div.who div.container-2 div.content {
+    width:40%; 
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 150px;
+    margin-top: 20px ;
+}
+
+
+/* div.who div.container-2 div.content h3 {
+
+} */
+
+
+div.who div.container-2 div.content p {
+    padding-block: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+div.who div.container-2 div.photo img {
+    width: 100%;
+}
+
+
+div.who div.container-2 div.content ul {
+    list-style: none;
+    padding-block: 20px;
+}
+
+div.who div.container-2 div.content ul li  {
+    padding-block: 10px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+
+/* style for contact inf */
+
+
+div.contact {
+    background-color: #f8f8f8;
+    margin-top: 100px;
+}
+div.contact div.container {
+    padding-block: 50px;
+
+}
+
+
+div.contact div.container div.inf {
+    float: left;
+    width: 50%;
+
+
+}
+
+
+div.contact div.container div.inf div.one h3 {
+    padding-block: 10px;
+}
+
+div.contact div.container div.inf div.one p {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+    padding-right: 150px;
+}
+
+
+div.contact div.container div.inf div.one {
+    float: left;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+div.contact div.container div.inf div.two {
+    line-height: 1.5;
+}
+
+
+div.contact div.container div.inf div.two ul li {
+    list-style: none;
+    line-height: 2;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+div.contact div.container div.frame iframe {
+    float: right;
+    width: 40%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* stlyle for last section  */
+
+
+/* .container {
+    width: 80%;
+    margin-inline: auto ;
+} */
+
+
+div.last {
+    background-color: #403d38;
+    margin-bottom: 0;
+    /* margin-top: 100px; */
+    padding-block: 50px;
+} 
+
+div.last div.container div {
+    width: 25%;
+    line-height: 2;
+    color: white;
+}
+
+
+div.last div.container h5 {
+        font-size: 20px ;
+        padding-block: 20px;
+}
+
+div.last div.container div p , div.last div.container div ul li {
+    font-weight: 200;
+    font-size: 20px ;
+    padding-block: 7px;
+}
+
+
+div.last div.container div ul li {
+    list-style: none;
+
+}
+
+
+div.last div.container div.first {
+    float: left;
+
+}
+
+
+
+div.last div.container div.second {
+    float: left;
+    padding-left: 50px ;
+}
+
+div.last div.container div.third{
+    float: left;
+    padding-left: 70px ;
+
+}
+
+
+
+div.last div.container div.fourth {
+    float: left;
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+
+
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: #353330;
+    /* margin-top: 100px; */
+    padding-block: 20px;
+}
+
+footer div.cont {
+    padding-top: 30px;
+}
+
+footer div.cont p {
+    padding-block: 30px;
+    color: #797979;
+    word-spacing: 2px;
+    font-size: 18px;
+}
+
+footer div.icons {
+    margin-inline: auto;
+    padding-bottom: 50px;
+
+}
+
+footer div.icons img {
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+
+footer div.icons .one , 
+footer div.icons .two ,
+footer div.icons .three ,
+footer div.icons .four {
+    display: inline-block;
+    background-color: #1b1b1b ;
+    opacity: 0.5;
+    margin-inline:5px ;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
